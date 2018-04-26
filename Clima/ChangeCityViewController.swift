@@ -40,7 +40,7 @@ class ChangeCityViewController: UIViewController {
     
     
 
-    //This is the IBAction that gets called when the user taps the back button. It dismisses the ChangeCityViewController.
+    //This is the IBAction that gets called when the user taps the back button.  fiIt dismisses the ChangeCityViewController.
     @IBAction func backButtonPressed(_ sender: AnyObject) {
         self.dismiss(animated: true, completion: nil)
     }
